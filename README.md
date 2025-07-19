@@ -25,7 +25,7 @@ Welcome to the **Smart AI Chatbot** project – a free and open-source chatbot p
 ---
 
 ## Screenshot
-<img width="825" height="888" alt="app_demo" src="" />
+<img width="825" height="888" alt="app_demo" src="Screenshot .png" />
 
 
 ## 📁 Project Structure
