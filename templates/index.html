@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Chatbot</title>
+    <!-- Include Bootstrap CSS for styling -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/static/style.css">
+    <!-- NEW: Add Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- NEW: Add background animation elements -->
+    <div class="bg-animation">
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+    </div>
+    
+    <div class="container">
+        <!-- NEW: Enhanced header with animation -->
+        <div class="chat-header">
+            <h1><i class="fas fa-robot"></i> Fox AI Chatbot</h1>
+            <div class="status">
+                <span class="status-dot"></span>
+                <span>Online</span>
+            </div>
+        </div>
+        
+        <div class="message">
+           
+            <div class="message">💡  Ask me anything!</div>
+            
+            
+            <!--- Show current time-->
+            <div class="timestamp">
+                🕒 <span id="current-timestamp"></span>
+            </div>
+        </div>
+        <div id="chat"></div>
+        
+        <!-- NEW: Enhanced form with animation -->
+        <form id="chat-form" class="chat-form">
+            <div class="input-wrapper">
+                <input type="text" id="user-input" autocomplete="off" placeholder="Type your message..." required>
+                <button type="submit" class="send-btn">
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+                <div class="input-highlight"></div>
+            </div>
+        </form>
+    </div>
+    
+    <!-- Include javascript file -->
+    <script src="/static/script.js"></script>
+    <!-- NEW: Add animation helper script -->
+    <script src="/static/animations.js"></script>
+</body>
+</html>
